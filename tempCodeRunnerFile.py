@@ -6,8 +6,8 @@ pygame.init()
 
 # === Constants ===
 WIDTH, HEIGHT = 1280, 720
-MIN_FPS, MAX_FPS = 1, 200
-N_MIN, N_MAX = 5, 500
+MIN_FPS, MAX_FPS = 1, 100
+N_MIN, N_MAX = 5, 150
 n = 40
 BAR_WIDTH = WIDTH/n
 
@@ -167,7 +167,7 @@ btn_insertion_sort = pygame.Rect(10+2*(SORT_W+BUTTON_PADDING), SORT_Y, SORT_W, S
 btn_merge_sort = pygame.Rect(10+3*(SORT_W+BUTTON_PADDING), SORT_Y, SORT_W, SORT_H)
 
 
-SLIDER_X = 10 + 6*(BUTTON_W + BUTTON_PADDING)+30
+SLIDER_X = 10 + 6*(BUTTON_W + BUTTON_PADDING)-30
 SLIDER_Y = BUTTON_Y + BUTTON_H//2 - 5
 SLIDER_W = 150
 SLIDER_H = 10
@@ -176,7 +176,7 @@ handle_x = SLIDER_X + SLIDER_W // 2
 dragging_slider = False
 dragging_n_slider = False
 
-N_SLIDER_X=10 + 4*(BUTTON_W + BUTTON_PADDING)
+N_SLIDER_X=10 + 4*(BUTTON_W + BUTTON_PADDING)-30
 N_SLIDER_Y=BUTTON_Y + BUTTON_H//2 - 5
 N_SLIDER_W=150
 n_slider_rect=pygame.Rect(N_SLIDER_X,N_SLIDER_Y,N_SLIDER_W,10)
