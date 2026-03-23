@@ -8,3 +8,7 @@ A Python-based sorting visualizer with:
 - Adjustable speed
 - Adjustable N
 - Interactive UI
+
+
+# Demo
+[Watch the demo](https://youtu.be/VIDEO_ID)
