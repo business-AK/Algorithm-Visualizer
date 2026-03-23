@@ -11,4 +11,4 @@ A Python-based sorting visualizer with:
 
 
 # Demo
-[Watch the demo](https://youtu.be/VIDEO_ID)
+[Watch the working of program](https://youtu.be/by2j3npeNC8)
